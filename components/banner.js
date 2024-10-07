@@ -13,7 +13,7 @@ const Banner = () => {
      </div>
      <p className='font-poppins text-base text-center py-4 leading-normal bigtablet:w-1/2 bigtablet:mx-auto'>At Icare Errand Services, we handle the tasks you dont have time for. we're here to make your life easier. Let us take care of the little things, so you can focus on what matters most.</p>
      <div className='w-full flex justify-center'>
-     <a href="#services"> <button className='bg-button py-2 px-8 text-base font-poppins rounded-xl text-white font-bold drop-shadow-lg hover:drop-shadow-xl'>Explore</button></a>
+     <a href="#Services"> <button className='bg-button py-2 px-8 text-base font-poppins rounded-xl text-white font-bold drop-shadow-lg hover:drop-shadow-xl'>Explore</button></a>
      </div>
         <div className='left'>
         <Image
