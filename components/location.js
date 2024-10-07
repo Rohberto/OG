@@ -6,7 +6,7 @@ const Location = () => {
     return (
     <div className="location_container">
     <div className="iframe_container">
-      <iframe src={mapLink} className="Google_map"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src={mapLink} className="Google_map"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <ul className="countries">
