@@ -13,6 +13,8 @@ import Features4 from '../components/feature4';
 import About from '../components/about';
 import Location from '../components/location';
 import Contact from '../components/contact';
+import Features5 from '../components/feature5';
+import Features6 from '../components/feature6';
 
 export default function Home() {
   const [isMonthly, setPeriod] = useState(true);
@@ -37,6 +39,8 @@ export default function Home() {
 <Features1/>
 <Features2/>
 <Features4/>
+<Features5/>
+<Features6/>
 </div>
 <About/>
 <Team/>
