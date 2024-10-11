@@ -43,7 +43,6 @@ export default function Home() {
 <Features6/>
 </div>
 <About/>
-<Team/>
 <Testimonial/>
 <Location/>
 <Contact/>
