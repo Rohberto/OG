@@ -24,6 +24,11 @@ const Footer = () => {
             ))
         }
        </div> 
+       <h2 className="font-poppins text-white text-3xl  font-bold text-center capitalize">
+          Headquarters
+            </h2>
+            <p className="font-poppins text-base capitalize text-white text-center">Our headquarter is located at: 4200 Regent St Suite 200, Columbus, OH 43219, United States.</p>
+            <p className="font-poppins text-base capitalize text-white text-center">PHONE: 937-819-6452</p>
        <p className='font-poppins text-base text-center text-white'> &copy;2022, ICare Errand Services. </p>
     </div>
   )

@@ -22,7 +22,11 @@ export default function Home() {
     <div className='w-screen overflow-hidden flex  bigtablet:block'>
       <Head>
         <title>ICare Errand</title>
-        <meta name="description" content="We are a dedicated team committed to providing exceptional services. Our focus is on delivering reliable and convenient solutions tailored to meet your needs." />
+        <meta name="description" content="Efficient errand and delivery services for individuals & businesses. Maximize productivity, Contact Us!" />
+      <meta property='og:title' content="ICare Errand"/>
+      <meta property="og:url" content="https://www.icareerrand.org"/>
+      <meta property='og:description' content="Efficient errand and delivery services for individuals & businesses. Maximize productivity, Contact Us!"/>
+      <meta property='og:image' content='https://www.Icareerrand.org/og.png'/>
     </Head>
     <div className='navBar bg-white fixed top-0 bigtablet:hidden z-50 h-screen' id='barContent'>
         <Nav/>

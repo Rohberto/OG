@@ -24,7 +24,7 @@ const Contact = () => {
                                 </div> 
                                 </form> 
                                 </div> 
-                                <div className="mt-12 text-center"> <p className="text-gray-600">Or reach us directly:</p> <p className="font-semibold text-gray-800">Phone: +123 456 7890</p> <p className="font-semibold text-gray-800">Email: contact@icareerrandservices.com</p> </div>
+                                <div className="mt-12 text-center"> <p className="text-gray-600">Or reach us directly:</p> <p className="font-semibold text-gray-800">Phone: 937-819-6452</p> <p className="font-semibold text-gray-800">Email: contact@icareerrandservices.com</p> </div>
      </section> 
   )
 }
