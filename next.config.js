@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+      source: '/zohoverify/verifyforzoho',
+      destination: '/zohoverify/verifyforzoho.html',
+      permanent: true
+      }
+    ]
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
