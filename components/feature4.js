@@ -18,7 +18,7 @@ const Features4 = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Package Delivery Service </h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-        We take care of sending and receiving packages on your behalf to make your day hassle-free.
+       Fast, Secure and Reliable. Need to send or receive a package? ICare Errand and Delivery Services has you covered. Whether its an important doacument, a gift or a special delivery. we ensure your package gets to its destination safely and on-time. Our trusted couriers handle your items with care, providing door-to-door service that's convenient and efficient. Schedule your pick-up or delivery with and let us take the hassle out of your day. With ICare, you can send and receive packages with confidence, knowing that we deliver more than just items-- we deliver peace of mind.
           </p>
      </div>
     </div>

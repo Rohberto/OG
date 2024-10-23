@@ -20,7 +20,7 @@ const Features = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Grocery Shopping Assistance.</h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-           We handle your grocery list and deliver everything right to your doorstep, saving you time and effort.
+        Let us do the Shopping for you! Running low on essentials but can't make it to the store? ICare Errand & Delivery services offers convenient grocery shopping assistance tailored to your needs. SImply Provide your shopping list and weíi handpick fresh , quality products and deliver them straight to your door. Save time, avoid the hassle and trust us to make your grocery shopping easy and efficient.
           </p>
      </div>
      <div className='w-full bigtablet:w-1/2 laptop:px-4 laptop:py-4'>

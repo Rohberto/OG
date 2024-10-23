@@ -9,11 +9,11 @@ const Banner = () => {
   return (
     <div className=' w-screen relative' name="Home" id="Home">
       <div className='pt-12 mb-4'>
-     <h1 className='font-poppins text-3xl bigtablet:text-4xl font-bold text-center capitalize leading-normal'> Simplify Life <br/>ICare Errand Services.</h1>
+     <h1 className='font-poppins text-3xl bigtablet:text-4xl font-bold text-center capitalize leading-normal'> Simplify Life, Optimize Your Day<br className='py-4'/>ICare Errand Services.</h1>
      </div>
-     <p className='font-poppins text-base text-center py-4 leading-normal bigtablet:w-1/2 bigtablet:mx-auto'>At Icare Errand Services, we handle the tasks you dont have time for. we're here to make your life easier. Let us take care of the little things, so you can focus on what matters most.</p>
+     <p className='font-poppins text-base text-center py-4 leading-normal bigtablet:w-1/2 bigtablet:mx-auto'>Your Trusted partner for Convenience, reliability and care. We specialize in taking the stress out of your day by handling your errands and deliveries with precision and punctuality. Whether it's grocery shopping, prescription pick-ups, document delivery, we ensure that your items reach their destination safely and on time. Experience the ease of having everything you need brought straight to your doorstep.</p>
      <div className='w-full flex justify-center'>
-     <a href="#S ervices"> <button className='bg-button py-2 px-8 text-base font-poppins rounded-xl text-white font-bold drop-shadow-lg hover:drop-shadow-xl'>Explore</button></a>
+     <a href="#Services"> <button className='bg-button py-2 px-8 text-base font-poppins rounded-xl text-white font-bold drop-shadow-lg hover:drop-shadow-xl'>Explore</button></a>
      </div>
         <div className='left'>
         <Image

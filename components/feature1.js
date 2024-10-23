@@ -18,7 +18,7 @@ const Features1 = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Dry Cleaning Drop-off & Pick up </h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-          With Icare errand services, you can easily drop off your clothes and we will handle the pickup and delivery for you.
+         Fresh, Clean and Convenient! Keeping your clothes looking their best has never been easier. ICare errand & Delivery Services offers reliable dry cleaning drop-off and pick-up, saving you time and effort. Simply schedule a pick-up and weíi handle the rest. Enjoy the convienience of professional cleaning without leaving your home. With Icare, we care for your clothes as much as you do.
           </p>
      </div>
     </div>

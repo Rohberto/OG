@@ -20,7 +20,7 @@ const Features5 = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Pet Care Assistance</h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-         We help with pet walking, feeding and other care tasks to keep your pets healthy and happy.
+         Your Pets deserve the Best. At ICare Errand & Delivery Services, we understand that your pets are part of the family. Our pet care assistance service is designed to make life easier for you and more comfortable for your furry friends. Whether you need help with pet food delivery, grooming appointments, vet visits or daily walks, we've got you covered.
           </p>
      </div>
      <div className='w-full bigtablet:w-1/2 laptop:px-4 laptop:py-4'>

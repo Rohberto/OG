@@ -20,7 +20,7 @@ const Features2 = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Prescription Pick-up</h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-         Our reliable service ensures your medications are picked up and delivered to you promptly and safely.
+        Your Health, Delivered. Managing Your medications just got easier with Icare Errand & Delivery Services. We offer a reliable & discreet prescription pick-up service, ensuring you never miss a dose. Simply provide your prescription details and we will handle the rest, picking up your medications from your preffered pharmacy and delivering them directly to your door. Trust Icare to make getting your medications safe, simple and stress-free.
           </p>
      </div>
      <div className='w-full bigtablet:w-1/2 laptop:px-4 laptop:py-4'>

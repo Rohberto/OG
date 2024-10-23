@@ -81,8 +81,8 @@ const Testimonial = () => {
       <p className='font-poppins text-base'>I needed someone to help with last-minute tasks, and ICare Errand Services exceeded my expectations. They were prompt, reliable and went above and beyond. Their service is truly top-notch.</p>
       <div className='flex items-center space-x-3'>
         <div>
-          <p className='font-poppins text-lg font-bold'>Robert Hilguston</p>
-          <p className='font-poppins text-sm font-bold text-button'>@robertHill</p>
+          <p className='font-poppins text-lg font-bold'>Oliver Grant</p>
+          <p className='font-poppins text-sm font-bold text-button'>@olivergrant</p>
         </div>
       </div>
       </div>
@@ -141,15 +141,71 @@ const Testimonial = () => {
       <p className='font-poppins text-base'>The convenience that Icare Errand Services offers is unparalleled. They save me time and hassle and their customer service is outstanding.</p>
       <div className='flex items-center space-x-3'>
         <div>
-          <p className='font-poppins text-lg font-bold'>Okosun Adesuwa</p>
-          <p className='font-poppins text-sm font-bold text-button'>@sleeky</p>
+          <p className='font-poppins text-lg font-bold'>Nathaniel Carter</p>
+          <p className='font-poppins text-sm font-bold text-button'>@Carter</p>
         </div>
       </div>
       </div>
 
+      <div className='space-y-4 shadow-md  laptop:shadow-none laptop:hover:shadow-xl py-8 laptop:py-4 px-4 rounded-md mb-8 mx-4'>
+      <div className='rating flex items-center'>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+      </div>
+      <h1 className='font-bold font-poppins text-lg capitalize'>
+      Trusting, Convienient and Reliable!
+      </h1>
+      <p className='font-poppins text-base'>ICare has truly transformed my daily routine! With their grocery shopping assistance, I can finally spend more quality time with my family instead of running errands. The team is professional, friendly and always on time. I highly recommend their services.</p>
+      <div className='flex items-center space-x-3'>
+        <div>
+          <p className='font-poppins text-lg font-bold'>Emily Thompson</p>
+          <p className='font-poppins text-sm font-bold text-button'>@emily_thompson</p>
+        </div>
+      </div>
+      </div>
       
-      
+      <div className='space-y-4 shadow-md  laptop:shadow-none laptop:hover:shadow-xl py-8 laptop:py-4 px-4 rounded-md mb-8 mx-4'>
+      <div className='rating flex items-center'>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+      </div>
+      <h1 className='font-bold font-poppins text-lg capitalize'>
+       Reliabily & Attention to Detail
+      </h1>
+      <p className='font-poppins text-base'>As a busy professional, I often struggle to find time for essential tasks. ICare prescription pick-up service has been a lifesaver for me. They handle everything with care and ensure i never miss my medication. Their reliability and attention to detail make them stand out.</p>
+      <div className='flex items-center space-x-3'>
+        <div>
+          <p className='font-poppins text-lg font-bold'>James Rivera</p>
+          <p className='font-poppins text-sm font-bold text-button'>@Rivera</p>
+        </div>
+      </div>
+      </div>
 
+      <div className='space-y-4 shadow-md  laptop:shadow-none laptop:hover:shadow-xl py-8 laptop:py-4 px-4 rounded-md mb-8 mx-4'>
+      <div className='rating flex items-center'>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+        <FaStar className='text-red-600'/>
+      </div>
+      <h1 className='font-bold font-poppins text-lg capitalize'>
+       Gives Relief & support
+      </h1>
+      <p className='font-poppins text-base'>I can't thank ICare enough for their pet assistance. They go above and beyond to ensure my pets are happy and well taken care of. Whether it's picking up pet food or taking my dog for a walk, I trust them completely. It's such a relief to have this support.</p>
+      <div className='flex items-center space-x-3'>
+        <div>
+          <p className='font-poppins text-lg font-bold'>Sarh Collins</p>
+          <p className='font-poppins text-sm font-bold text-button'>@sarah_collins</p>
+        </div>
+      </div>
+      </div>
 </Carousel>
       </div>
     </div>

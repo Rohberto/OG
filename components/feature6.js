@@ -18,7 +18,7 @@ const Features6 = () => {
         <h1 className='font-poppins font-bold text-center bigtablet:text-left text-xl laptop:text-4xl py-2'>Mail Services</h1>
       </div> 
       <p className='font-poppins text-base capitalize text-center bigtablet:text-left'>
-      We manage your mailing tasks including sending letters, packages and retrieving your post.
+    Efficient, Secure and Stress-Free. With ICare Errand & delivery Services, managing your mail has never been easier. Whether you need to send important documents, pick-up packages or handle your regular mail, we offer reliable solutions that saves your time and effort. Our team ensures your mail is handled securely with timely pick-ups and deliveries right to your doorstep. we take care of all your mailing needs so you can focus on what matters most. Experience Seamless and convienient mail services with ICare.
           </p>
      </div>
     </div>
