@@ -4,8 +4,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-      source: '/zohoverify/verifyforzoho',
-      destination: '/zohoverify/verifyforzoho.html',
+      source: '/zohoverify/verifyforzoho.html',
+      destination: '/zohoverify/verifyforzoho',
       permanent: true
       }
     ]
