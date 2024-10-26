@@ -1,18 +1,20 @@
 import React, {useState} from 'react';
 import Star from "../assets/IC.svg";
 import { Link } from 'react-scroll';
+import { useRouter } from 'next/router';
 import {FaBars} from "react-icons/fa";
  
 
 const Header
  = () => {
-     const links = ["Home", "Services","About", "Team", "Contact"];
+     const links = [ "Services","About", "Team", "Contact"];
      const toggle = () => {
      if( document.querySelector('#barContent').classList.contains('navBar')) {
         document.querySelector('#barContent').classList.remove('navBar');
         document.querySelector('#barContent').classList.add("barActive");
      }
      }
+     const router = useRouter();
   return (
     <div className='headerContainer flex justify-between h-20 items-center px-4 bigtablet:px-12 bg-white w-screen drop-shadow-xl z-40'>
        <div className='LogoContainer'>
@@ -20,6 +22,7 @@ const Header
              <h1 className='h1_Logo'>ICare Errand Services.</h1>
        </div>
        <div className="menuLinks w-1/2 bigtablet:flex justify-between items-center h-full hidden ">
+        <p onClick={() => router.push("/")} className="cursor-pointer font-poppins text-base hover:text-button">Home</p>
         {
             links.map((link, i) => (
                 <Link

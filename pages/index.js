@@ -15,6 +15,7 @@ import Location from '../components/location';
 import Contact from '../components/contact';
 import Features5 from '../components/feature5';
 import Features6 from '../components/feature6';
+import Career from '../components/career';
 
 export default function Home() {
   const [isMonthly, setPeriod] = useState(true);
@@ -49,6 +50,7 @@ export default function Home() {
 <About/>
 <Testimonial/>
 <Location/>
+<Career/>
 <Contact/>
   </div>
   <Footer/>
