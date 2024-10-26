@@ -11,7 +11,7 @@ const Career = () => {
   return (
     <div className="job-vacancies font-poppins"> 
         <h2 className='font-poppins'>Job Vacancies</h2> 
-        <p className="employment-note font-poppins">Employment ongoing for: <strong>Baby Sitter</strong></p> 
+        <p className="employment-note font-poppins">Employment ongoing for:</p> 
         <div className="vacancy-cards font-poppins"> 
             <Link href="/careers">
             <div className="card"> 
