@@ -13,20 +13,20 @@ const Career = () => {
         <h2 className='font-poppins'>Job Vacancies</h2> 
         <p className="employment-note font-poppins">Employment ongoing for:</p> 
         <div className="vacancy-cards font-poppins"> 
+        <Link href="/careers">
+                  <div className="card"> 
+                    <Image src={dropOff} alt="Drop Off Shipping"/> 
+                    <h3 className='font-poppins'>Pick-up and Drop Off Shipping</h3> 
+                    <p className='font-poppins'>Delivering packages to various locations.</p>
+                     </div> 
+                     </Link>
+           
             <Link href="/careers">
             <div className="card"> 
                 <Image src={babySitter} alt="Baby Sitter"/> 
                 <h3 className='font-poppins'>Baby Sitter</h3>
                  <p className='font-poppins'>Caring for children while parents are away.</p> </div>
                  </Link>
-
-                 <Link href="/careers">
-                  <div className="card"> 
-                    <Image src={dropOff} alt="Drop Off Shipping"/> 
-                    <h3 className='font-poppins'>Drop Off Shipping</h3> 
-                    <p className='font-poppins'>Delivering packages to various locations.</p>
-                     </div> 
-                     </Link>
 
                      <Link href="/careers">
                      <div className="card"> 
