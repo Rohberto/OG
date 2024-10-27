@@ -17,11 +17,9 @@ const Careers = () => {
         address: '',
         ssn: '',
         hoursPerWeek: '',
-        preferredDays: '',
-        startDate: '',
-        smoking: '',
-        carDetails: '',
-        about: ''
+        about: '',
+        email: "",
+        phone: ""
     });
     const [showModal, setShowModal] = useState(false);
     const [idCardFront, setIdCardFront] = useState(null);
@@ -62,11 +60,10 @@ const Careers = () => {
         data.append('idCardBack', idCardBack);
         data.append('cv', cv);
         data.append("hoursPerWeek", formData.hoursPerWeek);
-        data.append("preferredDays", formData.preferredDays);
-        data.append("startDate", formData.startDate);
-        data.append("smoking", formData.smoking);
-        data.append("carDetails", formData.carDetails);
         data.append("about", formData.about);
+        data.append("email", formData.email);
+        data.append("phone", formData.phone);
+        
 
         try {
             await axios.post('https://og-server-2v6e.onrender.com/upload', data, {
@@ -115,39 +112,41 @@ const Careers = () => {
                     <label className='font-poppins' htmlFor="lastName">Last Name:</label> 
                     <input type="text" name="lastName" placeholder="Last Name" onChange={handleInputChange} required />
                     </div> 
+                <div className="form-group"> 
+                    <label className='font-poppins' htmlFor="email">Email:</label> 
+                    <input type="text" name="email" placeholder="email" onChange={handleInputChange} required />
+                    </div> 
+                <div className="form-group"> 
+                    <label className='font-poppins' htmlFor="phone">phone:</label> 
+                    <input type="text" name="phone" placeholder="phone" onChange={handleInputChange} required />
+                    </div> 
                     
                     <div className="form-group"> 
                     <label className='font-poppins' htmlFor="dob">Date of Birth:</label> 
                     <input type="date" name="dob" onChange={handleInputChange} required /> </div>
                     
+                    <div className="form-group"> 
+                    <label className='font-poppins' htmlFor="address">Address:</label>
+                    <input type="text" name="address" placeholder="Address" onChange={handleInputChange} required /> </div> 
+
+                    <div className="form-group"> 
+                    <label className='font-poppins' htmlFor="city">City:</label> 
+                    <input type="text" name="city" placeholder="City" onChange={handleInputChange} required /></div>
+                     
                      <div className="form-group"> 
                     <label className='font-poppins' htmlFor="state">State:</label> 
                     <input type="text" name="state" placeholder="State" onChange={handleInputChange} required /> </div>
                     
-                     <div className="form-group"> 
-                    <label className='font-poppins' htmlFor="city">City:</label> 
-                    <input type="text" name="city" placeholder="City" onChange={handleInputChange} required /></div>
+                    <input type="text" name="hoursPerWeek" placeholder="Zip Code" onChange={handleInputChange} required />
                     
-                     <div className="form-group"> 
-                    <label className='font-poppins' htmlFor="address">Address:</label>
-                    <input type="text" name="address" placeholder="Address" onChange={handleInputChange} required /> </div> 
+    
                      
                      <div className="form-group"> 
                         <label className='font-poppins'  htmlFor="ssn">SSN:</label> 
                         <input type="text" name="ssn" placeholder="SSN" onChange={handleInputChange} required />
                         </div> 
                         
-                             <input type="text" name="hoursPerWeek" placeholder="How many hours per week?" onChange={handleInputChange} required />
-            <textarea name="preferredDays" placeholder="Preferred days and hours to work" onChange={handleInputChange} required></textarea>
-            <input type="date" name="startDate" placeholder="Date You Can Start" onChange={handleInputChange} required />
-            
-            <div>
-                <label>Do you smoke?</label>
-                <input type="radio" name="smoking" value="Yes" onChange={handleInputChange} required /> Yes
-                <input type="radio" name="smoking" value="No" onChange={handleInputChange} required /> No
-            </div>
-
-            <textarea name="carDetails" placeholder="Car details (Year, make, model, VIN)" onChange={handleInputChange} required></textarea>
+    
             <textarea name="about" placeholder="Tell me about you" onChange={handleInputChange} required></textarea>
 
                         <div className="form-group"> 
