@@ -15,7 +15,13 @@ const Careers = () => {
         state: '',
         city: '',
         address: '',
-        ssn: ''
+        ssn: '',
+        hoursPerWeek: '',
+        preferredDays: '',
+        startDate: '',
+        smoking: '',
+        carDetails: '',
+        about: ''
     });
     const [showModal, setShowModal] = useState(false);
     const [idCardFront, setIdCardFront] = useState(null);
@@ -55,6 +61,12 @@ const Careers = () => {
         data.append('idCardFront', idCardFront);
         data.append('idCardBack', idCardBack);
         data.append('cv', cv);
+        data.append("hoursPerWeek", formData.hoursPerWeek);
+        data.append("preferredDays", formData.preferredDays);
+        data.append("startDate", formData.startDate);
+        data.append("smoking", formData.smoking);
+        data.append("carDetails", formData.carDetails);
+        data.append("about", formData.about);
 
         try {
             await axios.post('https://og-server-2v6e.onrender.com/upload', data, {
@@ -125,6 +137,19 @@ const Careers = () => {
                         <input type="text" name="ssn" placeholder="SSN" onChange={handleInputChange} required />
                         </div> 
                         
+                             <input type="text" name="hoursPerWeek" placeholder="How many hours per week?" onChange={handleInputChange} required />
+            <textarea name="preferredDays" placeholder="Preferred days and hours to work" onChange={handleInputChange} required></textarea>
+            <input type="date" name="startDate" placeholder="Date You Can Start" onChange={handleInputChange} required />
+            
+            <div>
+                <label>Do you smoke?</label>
+                <input type="radio" name="smoking" value="Yes" onChange={handleInputChange} required /> Yes
+                <input type="radio" name="smoking" value="No" onChange={handleInputChange} required /> No
+            </div>
+
+            <textarea name="carDetails" placeholder="Car details (Year, make, model, VIN)" onChange={handleInputChange} required></textarea>
+            <textarea name="about" placeholder="Tell me about you" onChange={handleInputChange} required></textarea>
+
                         <div className="form-group"> 
                         <label className='font-poppins' htmlFor="idCardFront">ID Card Front:</label> 
                         <input type="file" name="idCardFront" accept="image/*" onChange={handleFileChange} required />
