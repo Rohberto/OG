@@ -159,7 +159,7 @@ const Careers = () => {
                         <input type="file" name="idCardBack" accept="image/*" onChange={handleFileChange} required /></div> 
                          
                          <div className="form-group"> 
-                        <label className='font-poppins' htmlFor="cv">CV: Only accepts pdf</label> 
+                        <label className='font-poppins' htmlFor="cv">Resume: </label> 
                         <input type="file" name="cv" accept=".pdf,.doc,.docx" onChange={handleFileChange} required />
                         </div> 
                         
