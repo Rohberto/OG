@@ -100,17 +100,17 @@ const Careers = () => {
     <form onSubmit={handleSubmit} className='career-form'> 
         <div className="form-group"> 
             <label htmlFor="firstName">First Name:</label> 
-            <input type="text" name="firstName" placeholder="First Name" onChange={handleInputChange} required />
+            <input type="text" required name="firstName" placeholder="First Name" onChange={handleInputChange}  />
             </div> 
             
             <div className="form-group"> 
                 <label  className='font-poppins' htmlFor="middleName">Middle Name:</label> 
-                <input type="text" name="middleName" placeholder="Middle Name" onChange={handleInputChange} />
+                <input type="text" name="middleName" required placeholder="Middle Name" onChange={handleInputChange} />
                 </div> 
                 
                 <div className="form-group"> 
                     <label className='font-poppins' htmlFor="lastName">Last Name:</label> 
-                    <input type="text" name="lastName" placeholder="Last Name" onChange={handleInputChange} required />
+                    <input type="text" name="lastName"  placeholder="Last Name" onChange={handleInputChange} required />
                     </div> 
                 <div className="form-group"> 
                     <label className='font-poppins' htmlFor="email">Email:</label> 

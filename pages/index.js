@@ -16,6 +16,7 @@ import Contact from '../components/contact';
 import Features5 from '../components/feature5';
 import Features6 from '../components/feature6';
 import Career from '../components/career';
+import WhatsAppIcon from '../components/whatsappIcon';
 
 export default function Home() {
   const [isMonthly, setPeriod] = useState(true);
@@ -52,6 +53,7 @@ export default function Home() {
 <Location/>
 <Career/>
 <Contact/>
+<WhatsAppIcon/>
   </div>
   <Footer/>
   </div> 

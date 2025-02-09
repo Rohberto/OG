@@ -57,7 +57,7 @@ const handleSubmit = async (e) => {
                                 </form> 
             
                                 </div> 
-                                <div className="mt-12 text-center"> <p className="text-gray-600">Or reach us directly:</p> <p className="font-semibold text-gray-800">Phone: 937-819-6452</p> <p className="font-semibold text-gray-800">Email: recruitment@icareerrandservices.org</p> </div>
+                                <div className="mt-12 text-center"> <p className="text-gray-600">Or reach us directly:</p> <p className="font-semibold text-gray-800">Phone: 615-556-0346</p> <p className="font-semibold text-gray-800">Email: recruitment@icareerrandservices.org</p> </div>
      </section> 
   )
 }
