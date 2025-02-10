@@ -3,6 +3,7 @@ const WhatsAppIcon = () => {
       <a
         href="https://wa.me/16155560346"
         target="_blank"
+        rel="noreferrer"
         style={{
           position: "fixed",
           bottom: "20px",
